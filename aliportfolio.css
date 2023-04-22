@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    background: url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    font-family: sans-serif;
+  }
+.strawhat{
+    width: 100px;
+    height: 97px;
+}
+nav{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    margin: auto;
+    padding: 9px 0;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(26, 25, 25);
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px; 
+    font-size: x-large;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fcf5f5;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: red;
+}
+.intro{
+    margin-left: 9%;
+    margin-top: 10%;
+  }
+  .intro h1{
+    font-size: 65px;
+    color: rgb(36,32,30);
+  }
+  .intro h2{
+    font-size: 31px;
+    letter-spacing: 4px;
+    line-height: 24px;
+  }
+  .intro span{
+    color: orange;
+  }
+  .about{
+    margin-left: 7%;
+    margin-top: 40%;
+  }
+  
+  .about a{
+    text-decoration: none;
+    color: #FFFF;
+    background: rgb(36,32,30);
+    margin: 1px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+  }
+  .about h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 90%;
+    height: 100%;  
+  }
+.images{
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    right: 100px;
+    top: 123px;
+}
+.images img{
+    height: 50%;
+    position: absolute;
+    left: 50%;
+    bottom: 1;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+    border-radius: 50%;
+}
+
+.icons a{
+    text-decoration: none;
+    color: #000;
+  }
+  .icons i{
+    margin-left: 7%;
+    color: #000;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4s ease;
+  }
+  .icons ion-icon{
+    margin-left: 7%;
+    color: #000;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4s ease;
+  }
+  .icons ion-icon:hover{
+    color: rgb(59,174,209);
+  }
